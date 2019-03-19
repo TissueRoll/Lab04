@@ -1,0 +1,7 @@
+package interfaces;
+
+public interface <OBJECT>Proxy
+{
+	<GET_FIELDS>
+	<SET_FIELDS>
+}

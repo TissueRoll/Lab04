@@ -1,0 +1,10 @@
+package classes;
+
+import interfaces.<OBJECT>Proxy;
+
+public class <OBJECT> implements <OBJECT>Proxy
+{
+	<DECLARE_FIELD>
+	<GET_METHOD>
+	<SET_METHOD>
+}
