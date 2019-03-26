@@ -1,0 +1,8 @@
+	public static <CLASS_NAME>Proxy create<CLASS_NAME>() throws Exception {
+		<CLASS_NAME> the<CLASS_NAME> = new <CLASS_NAME>();
+		InvocationHandler handler = new SomeInvocationHandler(the<CLASS_NAME>);
+		<CLASS_NAME>Proxy proxy = (<CLASS_NAME>Proxy) Proxy.newProxyInstance( ClassLoader.getSystemClassLoader(),
+																				new Class[] { <CLASS_NAME>Proxy.class },
+																				handler);
+		return proxy;
+	}
